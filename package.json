@@ -1,10 +1,10 @@
 {
   "name": "deicon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "iconfont",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bob-he/iconUI.git"
+    "url": "https://github.com/bob-he/deicon.git"
   },
   "keywords": [
     "dataeye",
