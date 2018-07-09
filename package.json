@@ -1,0 +1,69 @@
+{
+  "name": "deicon",
+  "version": "0.0.3",
+  "description": "iconfont",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bob-he/iconUI.git"
+  },
+  "keywords": [
+    "dataeye",
+    "utils",
+    "react"
+  ],
+  "scripts": {
+    "build": "gulp",
+    "cover": "cat coverage/*/lcov.info | codecov",
+    "prepare": "npm install react lodash highcharts superagent superagent-mocker numeral immutable",
+    "test": "karma start karma.conf.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "bob",
+  "license": "BSD-3-Clause",
+  "installable": true,
+  "peerDependencies": {
+    "classnames": "latest",
+    "babel-polyfill": "latest",
+    "react": "latest",
+    "prop-types": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-eslint": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-import": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "^6.22.0",
+    "browserify": "^13.0.0",
+    "browserify-istanbul": "^0.2.1",
+    "codecov.io": "0.1.6",
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-react": "^3.8.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "isparta": "^4.0.0",
+    "jasmine-core": "^2.4.1",
+    "react-addons-test-utils": "0.14.x"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "main": "./lib/index.js",
+  "prepublish": [
+    "build"
+  ],
+  "dependencies": {
+    "highcharts": "^6.1.1",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.10",
+    "numeral": "^2.0.6",
+    "react": "^16.4.1",
+    "superagent": "^3.8.3",
+    "superagent-mocker": "^0.5.2"
+  }
+}
