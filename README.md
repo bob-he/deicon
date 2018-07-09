@@ -5,4 +5,4 @@
 使用 <Icon /> 标签声明组件，指定图标对应的 type 属性，示例代码如下:
 ```html 
 <Icon type="home-circle" />
-```java 
+``` 
