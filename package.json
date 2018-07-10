@@ -1,6 +1,6 @@
 {
   "name": "deicon",
-  "version": "0.0.4",
+  "version": "1.0.4",
   "description": "iconfont",
   "repository": {
     "type": "git",
@@ -12,10 +12,7 @@
     "react"
   ],
   "scripts": {
-    "build": "gulp",
-    "cover": "cat coverage/*/lcov.info | codecov",
-    "prepare": "npm install react lodash highcharts superagent superagent-mocker numeral immutable",
-    "test": "karma start karma.conf.js"
+    "build": "gulp"
   },
   "files": [
     "lib"
@@ -25,7 +22,6 @@
   "installable": true,
   "peerDependencies": {
     "classnames": "latest",
-    "babel-polyfill": "latest",
     "react": "latest",
     "prop-types": "latest"
   },
@@ -43,11 +39,10 @@
     "eslint": "^1.9.0",
     "eslint-config-airbnb": "^1.0.0",
     "eslint-plugin-react": "^3.8.0",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.1",
+    "gulp": "latest",
+    "gulp-babel": "latest",
     "isparta": "^4.0.0",
-    "jasmine-core": "^2.4.1",
-    "react-addons-test-utils": "0.14.x"
+    "jasmine-core": "^2.4.1"
   },
   "bugs": {
     "url": ""
@@ -58,11 +53,8 @@
     "build"
   ],
   "dependencies": {
-    "immutable": "^3.8.2",
-    "lodash": "^4.17.10",
-    "numeral": "^2.0.6",
-    "react": "^16.4.1",
-    "superagent": "^3.8.3",
-    "superagent-mocker": "^0.5.2"
+    "classnames": "latest",
+    "react": "latest",
+    "prop-types": "latest"
   }
 }
